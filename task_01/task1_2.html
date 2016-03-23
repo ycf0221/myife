@@ -144,34 +144,41 @@
         </div>
 
         <form action="http://ife.baidu.com" class="form">
-            <div class="">
-                hahahaaaaaa
-                <input type="text" class="form_text_value" name="mail" id="email" value="这是一个文本输入框">
-            </div>
-            <div class="">
+
+            <div class="form_text">
                 <label for="email" class="form_text_name">请输入邮箱地址：</label>
                 <input type="text" class="form_text_value" name="mail" id="email" value="这是一个文本输入框">
+
+            </div>
+            <div class="form_text">
+                <label for="" class="form_text_name"></label>
+                <input type="text" class="p" value="邮箱地址请按要求格式输入">
             </div>
 
-        	<p>邮箱地址请按要求格式输入</p>
+
             <div class="form_text">
-                <label for="pass">请输入密码：</label>
-                <input type="password" name="pass" value="88888888">
+                <label for="pass" class="form_text_name">请输入密码：</label>
+                <input type="password" class="form_text_value" name="pass" id="pass" value="88888888">
             </div>
         	<div class="form_text">
-        	    <label for="pass">清重复输入密码：</label>
-                <input type="password" name="pass" value="88888888">
+        	    <label for="verifypass" class="form_text_name">清重复输入密码：</label>
+                <input type="password" class="form_text_value" name="pass" id="verifypass" value="88888888">
         	</div>
-        	<p>密码请为6-16位英文、数字</p>
+            <div class="form_text">
+                <label for="" class="form_text_name"></label>
+                <input type="text" class="p" value="密码请为6-16位英文、数字">
+            </div>
         	<div class="form_text">
-        	    性别
-                <input type="radio" name="sex" value="male" checked="checked"><label for="male">男</label>
-            	<input type="radio" name="sex" value="female"><label for="female">女</label>
+                <label for="" class="form_text_name">性别</label>
+                <input type="radio" name="sex" value="male" checked="checked">
+                <label for="male">男</label>
+            	<input type="radio" name="sex" value="female">
+                <label for="female">女</label>
         	</div>
 
             <div class="form_text">
-                城市
-            	<select name="cities">
+                <label for="" class="form_text_name">城市</label>
+            	<select name="cities" id="" class="form_text_value">
             		<option value="北京" selected="selected">北京</option>
             		<option value="上海">上海</option>
             		<option value="广州">广州</option>
@@ -180,30 +187,27 @@
             </div>
 
             <div class="form_text">
-                爱好
-            	<input type="checkbox" name="运动">运动</input>
-            	<input type="checkbox" name="艺术">艺术</input>
-            	<input type="checkbox" name="科学">科学</input>
+                <label for="" class="form_text_name">爱好</label>
+            	<input type="checkbox" name="运动" id="sport">
+                <label for="sport">运动</label>
+            	<input type="checkbox" name="艺术" id="art">
+                <label for="art">艺术</label>
+            	<input type="checkbox" name="科学" id="science">
+                <label for="science">科学</label>
             </div>
 
-            <div class="">
-                个人描述
-            	<textarea>这是一个多行输入框，输入您的个人描述 </textarea>
+            <div class="form_text">
+                <label for="self" class="form_text_name">个人描述</label>
+            	<textarea id="self" cols="80" rows="6">这是一个多行输入框，输入您的个人描述 </textarea>
 
             </div>
 
-            <div class="">
-                <input type="submit" value="确认提交"></input>
+            <div class="form_text">
+                <input class="form_text_submmit"
+                type="submit" value="确认提交"></input>
             </div>
-
-
         </form>
     </div>
-
-
-
-
-
 
     <p>版权所有@</p>
 
