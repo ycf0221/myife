@@ -1,1 +1,37 @@
-strong {color: red;}
+.box-set {
+  background: #e8eae9;
+  border: solid;
+}
+.box {
+  background: #8ec63f;
+  border: solid;
+  height: 80px;
+  position: relative;
+  width: 80px;
+}
+
+.box-1{
+    top:20px;
+    background: #8ec63f;
+    border: solid;
+    height: 80px;
+    position: relative;
+    width: 80px;
+}
+.box-2{
+    left:40px;
+    background: #8ec63f;
+    border: solid;
+    height: 80px;
+    position: relative;
+    width: 80px;
+}
+.box-3{
+    bottom: -40px;
+    right: 20px;
+    background: #8ec63f;
+    border: solid;
+    height: 80px;
+    position: relative;
+    width: 80px;
+}
