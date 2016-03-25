@@ -1,0 +1,164 @@
+
+body {
+	font-family: '微软雅黑';
+	background-color: #dedede;
+}
+
+/*navigation*/
+.nav{
+    width:100%;
+    height:60px;
+    background-color: #333;
+}
+
+.nav .logo{
+    float: left;
+    width:120px;
+    height: 40px;
+    margin: 10px 0 10px 40px;
+    background-image: url(../images/bd_logo.png);
+}
+.nav .link{
+    float: right;
+    margin: 10px 20px 10px 0;
+    text-align:center;
+}
+.nav .link li{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 20px;
+    color: #000;
+}
+.nav .link li a{
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+/*article, left box*/
+
+.article{
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px 15px 20px 15px;
+	margin-left: 20px;
+	margin-right: 390px;
+	border: solid;
+	overflow: auto;
+
+}
+.subtitle, .author{
+    color: #6f624f;
+}
+.main_text p{
+    text-indent: 2em;
+}
+.article ul{
+    list-style: none;
+}
+
+/*picture*/
+.pic{
+    border: 1px solid #cbcbcb;
+    width: 120px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	float: left;
+}
+.pic .img_title{
+    text-align: center;
+	width: 100px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.pic .imgs{
+	width: 100px;
+	margin-left: 10px;
+}
+.pic img{
+    width:100px;
+}
+
+/*table*/
+.table{
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+
+}
+.table thead{
+    background-color: #333;
+    color: white;
+}
+.table tbody{
+    font-size: 15px;
+}
+.table tfoot{
+    background: #ccc;
+}
+
+/*sidebar*/
+.side_container{
+	width: 350px;
+    background-color: white;
+    margin-top: 20px;
+	margin-right: 20px;
+/*    padding-left: 10px;
+	padding-right: 10px;
+*/
+	float: right;
+}
+.sidebar{
+	margin-left: 10px;
+    border-left-style: solid;
+    border-left-width: 6px;
+    border-color: #cccccc;
+    padding-left: 0.5em;
+    line-height: 2em;
+	font-size: 18px;
+}
+
+/*form*/
+.form{
+    overflow: auto;
+}
+.form .form_text{
+	margin-bottom: 10px;
+
+}
+.form .form_text .form_text_name{
+/*	border-style: solid; */
+    text-align: right;
+	width: 140px;
+	height: 100%;
+    display: inline-block;
+	vertical-align: top;  /*使个人描述在顶端*/
+
+}
+.form .form_text .form_text_value{
+	width: 140px;
+	display: inline-block;
+}
+.form .form_text .p{
+	color: #ccc;
+	width: 190px;
+	border: none;
+}
+.form .form_text .form_text_submmit{
+	width: 310px;
+	margin-left: 20px;
+	text-align: center;
+	height: 3em;
+	background-color: blue;
+	color: white;
+	font-size: 15px;
+}
+/*bottom*/
+.bottom{
+	width:100%;
+    height:60px;
+    background-color: #333;
+	line-height: 60px;
+	text-align: center;
+}
