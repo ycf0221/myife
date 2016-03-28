@@ -1,0 +1,244 @@
+
+.container{
+    width: 980px;
+    height: 1386px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-left: 44px;
+    padding-right: 44px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.header{
+    width: 892px;
+    height: 60px;
+    border-bottom: 2px solid #938e8c;
+}
+.header p{
+    transform: translateY(35px);
+}
+.header .logo{
+    width: 110px;
+    height: 61px;
+    float: left;
+    font: 12px "黑体";
+    background-color: red;
+}
+.header .logo p{
+    color: #fff;
+}
+.header .time{
+    font: 12px "黑体";
+    float: right;
+}
+.header .time p{
+    color: #d45d5c;
+}
+
+.banner{
+    width: 100%;
+    height: 301px;
+    margin-top: 40px;
+    position: relative;
+    box-sizing: border-box;
+}
+.banner_pic{
+    width: 641px;
+    height: 301px;
+    background-color: red;
+    float: left;
+    position: relative;
+}
+.banner_left{
+    width: 191px;
+    height: 301px;
+    background: green;
+    opacity: 0.3;
+    position: absolute;
+    left: 0
+}
+.banner_right{
+    width: 191px;
+    height: 301px;
+    background: purple;
+    opacity: 0.3;
+    position: absolute;
+    right: 0;
+}
+.banner_message{
+    float: right;
+    width: 203px;
+    height: 100%;
+    border-top: solid 2px #cc8091;
+    position: relative;
+}
+.message_title{
+    margin: 0;
+    line-height: 40px;
+    text-decoration: underline;
+    font-size: 24px;
+    font-family: "微软雅黑";
+    font-variant: small-caps;
+}
+.message_text{
+    margin: 0;
+    font-size: 12px;
+    font-family: "楷体";
+    line-height: 10px;
+}
+.number_big{
+    font-size: 116px;
+    font-family: "微软雅黑";
+    font-style: italic;
+    margin: 0;
+    color: #75b86b;
+}
+.number_small{
+    margin: 0;
+    font-size: 55px;
+    color:#cc8091;
+    font-family: "微软雅黑";
+    position: absolute;
+    bottom: 0;
+}
+.letter_up{
+    margin: 0;
+    font-family: "微软雅黑";
+    font-size: 21px;
+    color:#cc8091;
+    position: absolute;
+    left: 80px;
+    bottom: 20px;
+}
+.letter_down{
+    margin: 0;
+    font-family: "微软雅黑";
+    font-size: 12px;
+    color:#cc8091;
+    position: absolute;
+    left: 80px;
+    bottom: 10px;
+}
+
+.intro_text{
+    margin-top: 20px;
+    width: 641px;
+    height: 220px;
+    position: relative;
+}
+.what{
+    width: 200px;
+    height: 100%;
+    float: left;
+}
+.what h2{
+    font-size: 16px;
+    color: #418c59;
+    font-family: "微软雅黑";
+    text-decoration: underline;
+    font-weight: bold;
+}
+.what p{
+    font-size: 12px;
+    color: #767777;
+    font-family: "微软雅黑";
+    line-height: 16px;
+}
+.when{
+    width: 200px;
+    height: 100%;
+    margin-left: 17px;
+    margin-right: 17px;
+    float: left;
+}
+.when h2{
+    font-size: 16px;
+    color: #d2994f;
+    font-family: "微软雅黑";
+    text-decoration: underline;
+    font-weight: bold;
+}
+.when p{
+    font-size: 12px;
+    color: #231815;
+    font-family: "微软雅黑";
+    line-height: 16px;
+    opacity: 70%;
+}
+.how{
+    width: 200px;
+    height: 100%;
+    float: right;
+}
+.how h2{
+    font-size: 16px;
+    color: #cc7680;
+    font-family: "微软雅黑";
+    text-decoration: underline;
+    font-weight: bold;
+}
+.how p{
+    font-size: 12px;
+    color: #cd4a48;
+    font-family: "微软雅黑";
+    line-height: 16px;
+}
+.intro_text .ul{
+    width: 200px;
+    height: 80px;
+    position: absolute;
+    right: 0;
+    bottom: 30px;
+}
+.intro_text .ul ul{
+    list-style-type: none;
+    padding: 0;
+    font-family: "微软雅黑";
+    font-size: 12px;
+    line-height: 16px;
+    opacity: 0.7;
+}
+.intro_text .ul ul span{
+    color: #cd4a48;
+    font-style: italic;
+}
+
+.article{
+    width: 415px;
+    height: 600px;
+    border: 1px solid red;
+    margin-top: 30px;
+    position: relative;
+    float: left;
+}
+.article .title{
+    width: 415px;
+    height: 150px;
+    border-bottom: 2px solid;
+    position: absolute;
+    top: 0;
+    border: 1px solid;
+}
+#title{
+    text-transform: uppercase;
+    font-size: 42px;
+    color: #11456b;
+    font-family: "黑体";
+    font-weight: bold;
+    line-height: 16px;
+}
+#the{
+    font-size: 72px;
+    text-transform: uppercase;
+    color: f5e327;
+    font-family: "黑体";
+    font-style: italic;
+    font-weight: bold;
+}
+#down{
+    font-size: 33px;
+    color: #11456b;
+    font-family: "黑体";
+    font-weight: bold;
+}
