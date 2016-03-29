@@ -56,7 +56,7 @@
     background: green;
     opacity: 0.3;
     position: absolute;
-    left: 0
+    left: 0;
 }
 .banner_right{
     width: 191px;
@@ -231,7 +231,7 @@
 #the{
     font-size: 72px;
     text-transform: uppercase;
-    color: f5e327;
+    color: #f5e327;
     font-family: "黑体";
     font-style: italic;
     font-weight: bold;
@@ -241,4 +241,87 @@
     color: #11456b;
     font-family: "黑体";
     font-weight: bold;
+}
+
+.article .words{
+    width: 415px;
+    height: 450px;
+    position: absolute;
+    top: 150px;
+    border: 1px solid;
+}
+
+#first_letter{
+    font-size: 70px;
+    color: #f5e327;
+    font-family: "微软雅黑";
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+#words{
+    font-size: 12px;
+    color: #767777;
+    font-family: "宋体";
+    line-height: 16px;
+}
+#img_right{
+    float: right;
+    margin: 10px 0 10px 10px;
+    width: 150px;
+    height: 260px;
+}
+
+.article_right{
+    width: 458px;
+    height: 600px;
+    margin-top: 30px;
+    float: right;
+    position: relative;
+    border: 1px solid red;
+}
+.pic_right_box{
+    width: 458px;
+    height: 275px;
+    position: absolute;
+    top: 0;
+    border: 1px solid blue;
+}
+.pic_right{
+    width: 458px;
+    height: 275px;
+    position: relative;
+}
+.pic_right_bottom_box{
+    width: 458px;
+    height: 61px;
+    position: absolute;
+    bottom: 0;
+    border: 1px solid green;
+}
+.pic_right_bottom{
+    background: black;
+    opacity: 0.5;
+    width: 458px;
+    height: 61px;
+}
+#pic_right_bottom_title{
+    font-size: 26px;
+    font-family: "微软雅黑";
+    color: #ffffff;
+    border-left: solid;
+    border-left-width: 3px;
+    border-color: #72b16a;
+    position: absolute;
+    top: 15px;
+    margin: 0 0 0 50px;
+}
+#pic_right_bottom_text{
+    font-size: 12px;
+    color: #72b16a;
+    font-family: "微软雅黑";
+    font-style: italic;
+    line-height: 140%;
+    margin-left: 10px;
+
 }
