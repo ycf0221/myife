@@ -323,5 +323,116 @@
     font-style: italic;
     line-height: 140%;
     margin-left: 10px;
+}
+.article_right_down{
+    width: 458px;
+    height: 325px;
+    background-color: #eeedd6;
+    border: 1px solid blue;
+}
+.article_right_down .ul{
+    width: 458px;
+    height: 160px;
+    border: 1px solid blue;
+}
+.article_right_down .ul li{
+    font-size: 16px;
+    font-family: "宋体";
+    color: #5a5b5b;
+    list-style: square;
+    line-height: 20px;
+    text-align: left;
 
+}
+.article_right_down .ul span{
+    font-size: 12px;
+    color: #5a5b5b;
+    font-family: "宋体";
+    font-style: italic;
+    text-align: right;
+}
+.article_right_down .space{
+    width: 458px;
+    height: 160px;
+    border: 1px solid green;
+}
+.article_right_down .space .red_text{
+    width: 260px;
+    height: 160px;
+    background-color: red;
+    opacity: 0.6;
+    float: left;
+    border: 1px solid yellow;
+}
+#num_box{
+    width: 70px;
+    height: 160px;
+    float: left;
+    border: 1px solid;
+}
+#num_o{
+    line-height: 160px;
+    font-size: 110px;
+    color: #ffffff;
+    text-align: left;
+    font-family: "微软雅黑";
+}
+#right_letter{
+    width: 185px;
+    height: 86px;
+    float: right;
+    margin-top: 36px;
+    margin-bottom:auto;
+    border-left: 2px solid #ffffff;
+}
+#right_letter_up{
+    font-size: 21px;
+    color: #ffffff;
+    font-family: "黑体";
+    font-style: italic;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+#right_letter_down{
+    font-size: 12px;
+    font-family: "黑体";
+    color: #ffffff;
+    line-height: 3px;
+    margin-left: 10px;
+}
+.article_right_down .space .right_words{
+    width: 190px;
+    height: 160px;
+    float: right;
+    position: relative;
+    border: 1px solid blue;
+}
+
+#quote_up{
+    width: 30px;
+    height: 30px;
+    font-size: 72px;
+    color: #d45d5c;
+    font-family: "黑体";
+    float: left;
+    margin-top: -10px;
+    margin-left: -30px;
+}
+#quote_down{
+    width: 30px;
+    height: 30px;
+    font-size: 72px;
+    color: #d45d5c;
+    font-family: "黑体";
+    float: right;
+    margin-top: -30px;
+    margin-right: 20px;
+}
+#right_words_bottom{
+    font-size: 14px;
+    color: #5a5b5b;
+    font-family: "黑体";
+    font-style: italic;
+    line-height: 16px;
 }
