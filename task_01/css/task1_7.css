@@ -1,0 +1,64 @@
+https://github.com/Phoebe-Perry/ife_baidu_2016/blob/master/first_phase/ife-baidu_task_7/task_7.css
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    min-width: 1024px;
+    width: 100%;
+    height: 700px;
+    width:expression_r(document.body.clientWidth < 1024 ? "1024px": "auto" );
+    border: 1px solid blue;
+}
+
+ul{
+    list-style: none;
+}
+
+.nav_bar{
+    width:100%;
+    height:60px;
+    position: relative;
+    border: 1px solid red;
+}
+.nav_bar li{
+    float: right;
+    padding: 20px 35px 20px 30px;
+}
+.nav_bar a{
+    text-decoration: none;
+    color: black;
+}
+.nav_bar li:hover {
+	border-bottom: 4px solid red;
+}
+.nav_bar .log{
+    float: right;
+    width: 200px;
+    height: 60px;
+}
+#nav_log{
+    color: red;
+    line-height: 60px;
+    text-align: center;
+}
+#nav_log_pic{
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+}
+
+.nav_bar h3{
+    line-height: 60px;
+    font-size: 25px;
+    padding-left: 80px;
+    background: url(../images/task1_7/book.gif) no-repeat 3% 40%;
+}
+
+.banner{
+    width: 100%;
+    height: 400;
+    margin-top: 20px;
+    border: slid;
+}
